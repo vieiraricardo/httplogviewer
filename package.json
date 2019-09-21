@@ -1,6 +1,6 @@
 {
   "name": "httplogviewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "httplogviewer CLI",
   "bin": {
     "httplogviewer": "bin/httplogviewer"
@@ -30,6 +30,22 @@
     "prettier": "^1.12.1",
     "standard": "^12.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vieiraricardo/httplogviewer.git"
+  },
+  "keywords": [
+    "http",
+    "log",
+    "viewer",
+    "security",
+    "analyzer"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/vieiraricardo/httplogviewer/issues"
+  },
+  "homepage": "https://github.com/vieiraricardo/httplogviewer",
   "jest": {
     "testEnvironment": "node"
   },
