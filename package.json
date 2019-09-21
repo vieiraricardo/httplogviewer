@@ -2,7 +2,6 @@
   "name": "httplogviewer",
   "version": "0.0.1",
   "description": "httplogviewer CLI",
-  "private": true,
   "bin": {
     "httplogviewer": "bin/httplogviewer"
   },
