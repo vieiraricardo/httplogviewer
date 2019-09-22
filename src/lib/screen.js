@@ -76,7 +76,7 @@ function renderScreen (args) {
 }
 
 function getIpList (file) {
-  exec(`cut -d " " -f 1 ${file} | sort | uniq -c | sort -unr`, (err, data) => {
+  exec(`cut -d " " -f 1 ${file} | sort | uniq -c | sort -nr`, (err, data) => {
     if (err) return ipList.insertItem(0, err.stack)
     data.split(/\n/).forEach((item, i) => {
       ipList.insertItem(i, `{bold}${item}{/}`)
